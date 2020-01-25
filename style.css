@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+html{
+    background-color: black;
+    padding: 10px 2px 10px 0;
+}
+main{
+  text-align:center;
+  color:rgb(79, 79, 177);
+  height: 100%;
+  width: 100%;
+  padding: 10px 2px 10px 0;
+}
+#image{
+  width:100%;
+  height:auto;
+  border-radius:20px;
+  margin: 0 auto;
+}
+.container{
+  width: 100%;
+  padding:10px 2px 10px 0;
+  border-radius:20px;
+  display:grid;
+  font-family:Bangers;
+}
+article{
+    text-align: justify;
+    line-height: 1.5em;
+    padding: 10px 2px 10px 0;
+    font-family: Josefin Sans;
+    font-size: 18px;
+    color:paleturquoise;
+}
+#tribute-info{
+    width:100%;
+    height:auto;
+    font-family: Tangerine;
+    font-size: 60px;
+}
+h3{
+    color: peachpuff;
+}
+@media (max-width: 460px){
+    main{
+        margin:0;
+    }
+    #tribute-info{
+        font-size: 24px;
+    }
+    article{
+        font-size: 12px;
+    }
+    h3{
+        font-size: 14px;
+    }
+}
